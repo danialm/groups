@@ -1,0 +1,6 @@
+[08-Oct-2014 17:26:06 UTC] PHP Fatal error:  Uncaught exception 'Exception' with message 'load error: failed to find main.less' in /home/admindanial/public_html/groups/lessphp/lessc.inc.php:1818
+Stack trace:
+#0 /home/admindanial/public_html/groups/lessphp/lessc.inc.php(1844): lessc->compileFile('main.less', 'main.css')
+#1 /home/admindanial/public_html/groups/index.php(5): lessc->checkedCompile('main.less', 'main.css')
+#2 {main}
+  thrown in /home/admindanial/public_html/groups/lessphp/lessc.inc.php on line 1818
