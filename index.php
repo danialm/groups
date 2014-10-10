@@ -2,7 +2,7 @@
 require "lessphp/lessc.inc.php";
 
 $less = new lessc;
-$less->checkedCompile("groups/css/main.less", "css/main.css");
+$less->checkedCompile("groups/css/main.less", "groups/css/main.css");
 ?>
 <!DOCTYPE html>
 <html>
